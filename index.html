@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript and the DOM</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 id="headline">Todo List</h1>
+
+        <div class="group">
+          <label for="main">What's your task?</label>
+          <input type="text" id="main" class="input-main">
+          <button id="btn-main">ADD TASK</button>
+        </div>
+      </header>
+
+      <button class="btn-toggle">Hide List</button>
+
+      <div class="list-container">
+        <ul aria-live="polite">
+     
+        </ul>
+        <button class="btn-remove">Delete All</button>
+      </div>
+     
+    
+    
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
